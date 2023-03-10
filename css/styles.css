@@ -3,4 +3,5 @@
 }
 * {
     font-family: var(--primary-font-family);
+    font-size: large;
 }
