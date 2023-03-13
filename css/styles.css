@@ -1,6 +1,20 @@
-:root{
-    --primary-font-family:'Roboto', sans-serif;
+:root {
+  --primary-font-family: "Roboto", sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
 }
+
 * {
-    font-family: var(--primary-font-family);
+  font-family: var(--primary-font-family);
+}
+
+/* LOGO */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 26px;
+}
+.logo-span {
+  color: blue;
 }
