@@ -14,7 +14,9 @@
   font-family: Raleway;
   font-style: normal;
   font-size: 26px;
+  color: var(--primary-text-color);
 }
 .logo-span {
-  color: blue;
+  color: var(--accent-color);
+  font-style:700px;
 }
