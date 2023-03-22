@@ -5,9 +5,10 @@
   --accent-color: #2196f3;
 }
 
-* {
+body {
   font-family: var(--primary-font-family);
 }
+
 /* ALL STARTS*/
 
 .list {
@@ -16,23 +17,135 @@
 .link {
   text-decoration: none;
 }
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
 /* ALL END */
+
 /* LOGO */
 .logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  /* identical to box height */
   letter-spacing: 0.03em;
   color: #000000;
 }
+
+/* .logo:hover,
+.logo:focus {
+  color: #ffffff;
+} */
+
 .logo-span {
   color: var(--accent-color);
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  /* identical to box height */
   letter-spacing: 0.03em;
+}
+
+/* NAVIGATION */
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--accent-color);
+}
+/* END NAVIGATION */
+
+/* START HERO */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #FFFFFF;  */
+}
+/* END HERO */
+
+/* START FEATURES */
+.features-big-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+.features-small-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* END FEATURES */
+
+/* START ABOUT US */
+/* END ABOUT US */
+
+/* START TEAM */
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* END TEAM */
+
+/* START FOOTER */
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-span-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  /* color: #FFFFFF; */
+}
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
 }
