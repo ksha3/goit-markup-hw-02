@@ -59,6 +59,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+/* END LOGO */
 
 /* NAVIGATION */
 .nav-list {
@@ -102,17 +103,14 @@ ol {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* background-color: blue;  */
   color: #ffffff;
 }
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  /* display: flex; */
-  /* align-items: center; */
-  /* text-align: center; */
   letter-spacing: 0.06em;
+  cursor: pointer;
   background-color: var(--accent-color);
   color: #d9d9d9;
   border: 1px solid #000000;
@@ -213,7 +211,6 @@ ol {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
-
 
 .gallery-search-btn:hover,
 .gallery-search-btn:focus {
