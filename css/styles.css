@@ -43,6 +43,9 @@ ol {
 
 /* LOGO */
 .logo {
+  margin-left: 215px;
+  margin-right: 90px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -62,6 +65,10 @@ ol {
 /* END LOGO */
 
 /* NAVIGATION */
+.nav-flex {
+  display: flex;
+  align-items: center;
+}
 .nav-list {
   font-weight: 500;
   font-size: 14px;
